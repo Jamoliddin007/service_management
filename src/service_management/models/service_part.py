@@ -26,11 +26,9 @@ class ServicePart(models.Model):
     ]
 
     def action_deactivate(self):
-        """Detalni nofaol qilish"""
         for record in self:
             record.is_active = False
 
     def action_activate(self):
-        """Detalni faol qilish"""
         for record in self:
             record.is_active = True
