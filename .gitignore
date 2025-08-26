@@ -170,3 +170,5 @@ __marimo__/
 
 # Odoo directory
 odoo/
+
+.idea/
